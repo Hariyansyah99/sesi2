@@ -1,0 +1,110 @@
+html{
+    margin: 0;
+    padding: 0;
+} 
+
+.kotak1 {
+    height: 100px;
+    width: 300px;
+    background-color:red;
+    margin-bottom: 50px;
+}
+
+h1 {
+    padding: 50px;
+    color: orange;
+}
+
+.kotak2 {
+    height: 200px;
+    width: 75%;
+    background-color: blue;
+    margin-top: 50px;
+}
+
+h2 {
+    padding: 30px 25px 15px 20px;
+    color: aqua;
+   
+  
+}
+
+.text-1 {
+    text-align: right;
+    text-decoration: underline;
+    font-family: serif;
+    text-transform: capitalize;
+}
+.text-2 {
+    text-align: center;
+    text-decoration: line-through;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: lowercase;
+    font-size: 40px;
+}
+.text-3 {
+    text-align: left;
+    text-decoration: dotted;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+.kotak-1{
+    left: 50px;
+    position: absolute;
+    padding: 10;
+    background-color: red;
+}
+.kotak-2{
+    left: 50px;
+    position: relative;
+    padding: 10;
+    background-color: green;
+}
+.kotak-3{
+    left: 50px;
+    position: static;
+    padding: 10;
+    background-color: orange;
+}
+.kotak-4{
+    left: 50px;
+    position: absolute;
+    padding: 10;
+    background-color: blue;
+}
+
+.link {
+    color: red;
+    font-size: 30px;
+    
+    
+    
+}
+.link:hover{
+    color: blue;
+}
+
+.link:visited{
+    color: black;
+}
+
+.nama {
+    margin: 50px;
+    font-family :Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    
+
+}
+
+.border{
+    border: 10px solid green;
+    border-radius:20px;
+}
+
+ul.kendaraan{
+    list-style-type: circle   ;
+}
